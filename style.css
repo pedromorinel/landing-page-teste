@@ -98,3 +98,22 @@ body {
 .link:visited {
     color: #0E0C0C
 }
+
+
+@media (max-width: 450px) {
+
+    body {
+        background-color: #000000;
+    }
+    .cabecalho {
+        background-color: #8FC7FF;
+    }    
+    .navegacao {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        color: #0E0C0C;
+        letter-spacing: 0.09em;
+    }
