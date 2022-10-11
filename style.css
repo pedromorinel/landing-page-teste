@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: #000000;
+}
+
+
+.cabecalho {
+    background-color: #8FC7FF;
+    padding: 15px;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 80px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #0E0C0C;
+    letter-spacing: 0.09em;
+    margin-right: 75px;
+}
+.principal {
+    background-color: #000000;
+    padding-top: 300px;
+    padding-left: 100px;
+}
+.secao1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.titulo {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 48px;
+    letter-spacing: 0.09em;
+    color: #8FC7FF;
+}
+.paragrafo {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF; 
+    text-align: justify;
+}
+.botao {
+    width: 210px;
+    height: 58px;
+    left: 71px;
+    top: 637px;
+    background: #8FC7FF;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.09em;
+    color: #0E0C0C;
+}
+
+.img1 {
+    position: absolute;
+    left: 200%;
+    width: 179px;
+    height: 621px;
+    left: 628px;
+    top: 204px;
+    margin-left: 450px;
+}
+.img2 {
+    position: absolute;
+    left: 200%;
+    width: 183px;
+    height: 614px;
+    left: 838px;
+    top: 201px;
+    margin-left: 450px;
+}
+.img3 {
+    position: absolute;
+    left: 200%;
+    width: 388px;
+    height: 621px;
+    left: 1053px;
+    top: 201px;
+    margin-left: 450px;
+}
+.link:hover {
+    background-color: #59a8f7ef;
+}
+.link:visited {
+    color: #0E0C0C
+}
