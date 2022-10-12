@@ -136,3 +136,34 @@ body {
         letter-spacing: 0.09em;
         color: #8FC7FF;
     }
+    .paragrafo {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 22px;
+        color: #FFFFFF; 
+        text-align: justify;
+    }
+    .botao {
+        width: 210px;
+        height: 58px;
+        left: 71px;
+        top: 637px;
+        background: #8FC7FF;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: 0.09em;
+        color: #0E0C0C;
+    }
+    .img1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .img2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .img3 {
+        display: flex;
+        flex-direction: column;
+    }
