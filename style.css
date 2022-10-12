@@ -117,4 +117,22 @@ body {
         color: #0E0C0C;
         letter-spacing: 0.09em;
         height: auto;
+        gap: 10px;
+    }
+    .principal {
+        background-color: #000000;
+        padding-top: 100px;
+        padding-left: 10px;
+    }
+    .secao1 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .titulo {
+        font-family: 'Inter';
+        font-weight: 800;
+        font-size: 48px;
+        letter-spacing: 0.09em;
+        color: #8FC7FF;
     }
