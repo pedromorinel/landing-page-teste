@@ -107,6 +107,7 @@ body {
     }
     .cabecalho {
         background-color: #8FC7FF;
+        margin-right: -100px;
     }    
     .navegacao {
         display: flex;
