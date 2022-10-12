@@ -107,7 +107,6 @@ body {
     }
     .cabecalho {
         background-color: #8FC7FF;
-        margin-right: -100px;
     }    
     .navegacao {
         display: flex;
@@ -156,12 +155,11 @@ body {
         letter-spacing: 0.09em;
         color: #0E0C0C;
     }
-    .img1 {
-        position: absolute
-    }
-    .img2 {
-        position: absolute
+    .imgmobile {
+        position: absolute;
+        right: 351%;
+        margin-top: -181px;
     }
     .img3 {
-        position: absolute
+        display: none;
     }
